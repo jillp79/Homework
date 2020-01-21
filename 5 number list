@@ -1,0 +1,11 @@
+inputs = 0
+oldList = []
+newList = []
+while inputs < 5:
+    inputs += 1
+    oldList.insert(inputs, (int(input("Enter a number: "))))
+for number in oldList:
+    newList.append(number * number)
+##for debug
+print('Numbers : '+str(oldList))
+print('Squares : '+str(newList))
